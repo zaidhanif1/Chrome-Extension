@@ -16,6 +16,7 @@ input
 
 button
 {
+    
     background-color: #5f9341; 
     color: white;
     padding: 10px 20px;
@@ -24,16 +25,28 @@ button
     cursor: pointer;
     border: none;
     transition: transform 0.3s ease;
-
+    min-width: 120px;
 }
 button:hover
 {
     transform: scale(1.05);
+    
 }
 button:active
 {
     transform: scale(0.95);
 }
+#delete-btn
+{
+    background-color: white;
+    color: #5f9341;
+    border: 1px solid #5f9341;
+}
+
+
+
+
+
 
 ul
 {
