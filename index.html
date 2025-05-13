@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chrome Extension</title>
+    <title>URL Tracker</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div>
-<input type="text" id="input-el">
+        <label for="">Enter URL</label>
+<input type="text" id="input-el" placeholder="https://www.google.com">
 <button id="input-btn" >SAVE INPUT</button>
-<button id="tab-btn">SAVE TAB</button>
 <button id="delete-btn">DELETE ALL</button>
 <ul id="ul-el">
 
@@ -19,6 +24,6 @@
 
     </div>
     
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
 </body>
-</html>
+</html> 
